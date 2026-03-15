@@ -1,0 +1,25 @@
+modLoader="javafml"
+loaderVersion="[36,)"
+license="MIT"
+
+[[mods]]
+    modId="itemswap"
+    version="1.0.0"
+    displayName="ItemSwap"
+    description='''
+ItemSwap автоматически меняет изношенные инструменты и пополняет расходные предметы из инвентаря.
+'''
+
+[[dependencies.itemswap]]
+    modId="forge"
+    mandatory=true
+    versionRange="[36,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.itemswap]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.5,1.17)"
+    ordering="NONE"
+    side="BOTH"
